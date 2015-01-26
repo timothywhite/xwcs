@@ -1,0 +1,51 @@
+ <link rel="import" href="../../assets/components/polymer/polymer.html">
+ <link rel="import" href="../../assets/components/paper-icon-button/paper-icon-button.html">
+ <link rel="import" href="../../assets/components/paper-input/paper-input-decorator.html">
+
+<polymer-element name="paper-modifier" attributes="modifier value">
+	<template>	
+		<style>
+			:host {
+				display: block;
+			}
+			:host .modifier-container {
+				width: 250px;
+			}
+			:host .modifier-name {
+				margin: auto;
+				width: 150px;
+			}
+			:host paper-input-decorator {
+				width: 50px;
+				padding: 0 0 10px 0;
+			}
+		</style>
+		<div class="modifier-container" layout horizontal>
+			<div class="modifier-name" flex>{{modifier.name}}</div>
+			<paper-input-decorator 
+				hidden?="{{modifier.number !== -3}}"
+				on-change="{{updateValue}}"
+			>
+				<input is="core-input" type="number" value="1" required>
+			</paper-input-decorator>
+   	<paper-icon-button icon="close" on-tap="{{removeModifier}}"></paper-icon-button>
+		</div>
+	</template>
+
+  <script>
+  Polymer({
+  		publish: {
+  			value: {
+  				value: 1,
+  				reflect: true
+  			}
+  		},
+  		removeModifier: function() {
+  			this.remove();
+  		},
+  		updateValue: function(event, details, sender) {
+  			this.value = sender.input.value;
+  		}
+  });
+  </script>
+</polymer-element>

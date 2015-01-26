@@ -1,0 +1,35 @@
+<link rel="import" href="../../assets/components/polymer/polymer.html">
+<link rel="import" href="../../assets/components/paper-icon-button/paper-icon-button.html">
+
+
+<polymer-element name="paper-toggle-icon-button" attributes="icon src">
+<template>
+	<style>
+		:host paper-icon-button{
+			border-radius: 100%;
+		}
+	</style>
+	<paper-icon-button
+		class="paper-toggle-icon-button"
+		src="{{src}}"
+		icon="{{icon}}"
+		on-tap="{{toggle}}">
+	></paper-icon-button>
+</template>
+<script>
+	Polymer({
+		publish: {
+			background: '#838383',
+			isToggled: false
+		},
+		toggle: function(event, detail, sender) {
+			this.isToggled = !this.isToggled;
+			if (this.isToggled) {
+				sender.style.background = this.background;
+			} else {
+				sender.style.background = 'none';
+			}
+		}
+	});
+</script>
+</polymer-element>

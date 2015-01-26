@@ -1,0 +1,138 @@
+body {
+	font-family: RobotoDraft;
+}
+h3 {
+	margin: 5px 0;
+}
+core-header-panel {
+ height: 100%;
+ overflow: auto;
+	-webkit-overflow-scrolling: touch; 
+}
+core-toolbar.main {
+	width: 100%;
+ background: #03a9f4;
+	color: white;
+}
+core-toolbar.drawer {
+	background: #6B7B83;
+	color: white;
+}
+core-toolbar > div {
+	width:100%;
+}
+#tabs {
+ width: 100%;
+ margin: 0;
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+	user-select: none;
+	text-transform: uppercase;
+}
+#tabs paper-tab {
+	max-width: 200px;
+}
+.main-wrap {
+ width: 80%;
+	margin: 50px auto;
+ max-width: 940px;
+	min-width: 200px;
+}
+.wrap{
+ width: 100%;
+}
+.container {
+	padding: 10px;
+	min-width: 150px;
+}
+.spaced-horizontal {
+	margin-right: 10px;
+}
+.spaced-horizontal:last-child {
+	margin-right: 0px;
+}
+.spaced-vertical {
+	margin-top: 20px;
+}
+.attack-dice-slider::shadow #sliderBar::shadow #activeProgress, 
+.attack-dice-slider::shadow #sliderKnobInner,
+.attack-dice-slider::shadow #sliderKnobInner::before{
+	background-color: #C01414;
+}
+.defense-dice-slider::shadow #sliderBar::shadow #activeProgress, 
+.defense-dice-slider::shadow #sliderKnobInner,
+.defense-dice-slider::shadow #sliderKnobInner::before{
+	background-color: #118B11;
+}
+.dice-number {
+	font-size: 40px;
+	margin: 0 10px;
+}
+.attack-dice-number {
+	color: #C01414;
+}
+.defense-dice-number {
+	color: #118B11;
+} 
+.focus-defense-toggle {
+	margin-right: 4px;
+} 
+.add-mod-button{
+	width: 150px;
+}
+.defense-mod-dropdown {
+	right: 15px;
+	width: 250px;
+}
+.attack-mod-dropdown {
+	left: 15px;
+	width: 250px;
+}
+paper-spinner.white::shadow .circle {
+    border-color: white;
+}
+.simulate-spinner {
+	position: absolute;
+	left:50px;
+}
+.simulate-button {
+	background-color: grey;
+}
+.drawer-button {
+	background-color: grey;
+}
+
+.chart-wrap {
+	padding: 0 0 20px 35px;
+	text-align: center;
+}
+.chart-container {
+	height: 300px;
+}
+.y-axis-label{
+	transform: rotate(270deg);
+	position: absolute;
+	top: 168px;
+	left: -25px;
+}
+.x-axis-label{
+	
+}
+@media (min-width: 467px) and (max-width: 679px){
+	
+	.spaced-horizontal:first-child {
+		margin-right: 10px;
+	}
+	.spaced-horizontal {
+		margin-right: 0px;
+	}
+}
+@media (max-width: 466px) {
+	.spaced-horizontal {
+		margin-right: 0px;
+	}
+	.main-wrap {
+		min-height: 600px;
+	}
+}

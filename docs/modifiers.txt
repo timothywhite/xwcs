@@ -1,0 +1,77 @@
+Ten Numb: 1 uncancellable crit
+
+Keyan Farlander: all focus to hit
+
+Ibtisam: 1 reroll attack or defense
+
+(x)Corran Horn: Double tap
+
+Etahn A'baht: 1 hit to crit
+
+Luke Skywalker: 1 focus to evade
+
+Horton Salm: reroll all blanks
+
+(x)BTL-A4 Y-wing: Primary attack followed by turret attack
+
+Han Solo: reroll as many die as possible when attacking
+
+Krassis Trelix: reroll 1 attack die
+
+Captain Jonus: reroll 1 attack die
+
+Howlrunner: reroll 1 attack die
+
+Winged Gundark: 1 hit to crit
+
+Kir Kanos: add 1 hit
+
+Rear Admiral Chiraneau: 1 focus to crit
+
+Boba Fett (SV): reroll 1 or more defense die (variable - user input required)
+
+Serissu: reroll 1 defense die
+
+R7 Astromech: defender reroll attack die
+
+Autoblaster: uncancellable hits
+
+Mangler Cannon: 1 hit to crit
+
+(x)Luke Skywalker: gunner with 1 focus to hit
+
+(x)Gunner: second attack if miss
+
+C-3P0: add evade if correct guess (requires user input)
+
+Han Solo: use target lock as focus
+
+Mercenary Copilot: 1 hit to crit
+
+Marksmanship: 1 focus to crit, all focus to hit
+
+Predator: 1 or 2 rerolls (requires user input)
+
+Elusiveness: defender reroll 1 attack die
+
+Lone Wolf: 1 reroll attack or defense
+
+Concussion Missles: 1 blank to hit
+
+Cluster Missles: double attack
+
+R4-B11: attacker reroll defense die
+
+Advanced Targeting Computer: add 1 crit
+
+Accuracy Corrector: add 2 hits, cancel all attack die
+
+Sensor Jammer: defender change 1 attack die from hit to focus. attacker can't reroll the die.
+
+Autoblaster Turret: uncancellable hits
+
+Advanced Proton Torpedoes: 3 blank to focus
+
+Proton Torpedos: 1 focus to crit
+
+Autothrusters: 1 blank to evade
